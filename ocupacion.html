@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ocupación - Thais Inquilla</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4A3F7A;
+            color: #fff;
+        }
+        header {
+            background-color: #4A3F7A;
+            padding: 1em 20px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        header .logo {
+            display: flex;
+            align-items: center;
+        }
+        header .logo img {
+            height: 50px;
+            margin-right: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #A3D4FF;
+        }
+        .title-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 20px 0;
+        }
+        .title-container h1 {
+            margin: 0;
+            font-size: 3em; /* Tamaño de letra para "Ocupación" */
+            font-weight: bold;
+            color: #A3D4FF;
+            text-align: center;
+        }
+        .title-container .subtitle {
+            font-size: 2em; /* Tamaño de letra para "Sobre mi carrera" */
+            color: #A3D4FF;
+            align-self: flex-start;
+            margin-left: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content p {
+            font-size: 1.2em;
+            color: #E1E6FF;
+            margin-bottom: 20px;
+        }
+        .courses-container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #4A3F7A;
+            color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .courses-header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            font-size: 1.5em;
+            text-align: left;
+        }
+        .courses-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .courses-list li {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .courses-list li:nth-child(even) {
+            background-color: #555;
+        }
+        .courses-list li:nth-child(odd) {
+            background-color: #666;
+        }
+        .courses-list li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+        <h1>THAIS INQUILLA</h1>
+    </div>
+</header>
+
+<div class="title-container">
+    <h1>Ocupación</h1>
+    <div class="subtitle">Sobre mi carrera</div>
+</div>
+
+<div class="content">
+    <p>Soy una estudiante de la Universidad Católica San Pablo. Mi carrera es administración de negocios y actualmente me encuentro cursando mi tercer semestre.</p>
+    <div class="subtitle" style="text-align: left;">Cursos que estoy llevando:</div>
+    <div class="courses-container">
+        <div class="courses-header">Cursos</div>
+        <ul class="courses-list">
+            <li>Antropología</li>
+            <li>Análisis financiero</li>
+            <li>Lógica</li>
+            <li>Comportamiento del consumidor</li>
+            <li>Música y artes visuales</li>
+            <li>Cálculo en una variable</li>
+            <li>Pensamiento computacional</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
+
